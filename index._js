@@ -92,7 +92,7 @@ graph.existingItemGenerator = function existingItemGenerator(existingItem)
       }
       else if (this.response.paging && this.response.paging.next)
       {
-        this.response = this.get(this.response.paging.next, _);
+        this.response = graph.get(this.response.paging.next, _);
         return this.response.data.shift();
       }
     }

@@ -83,7 +83,7 @@ graph.existingItemGenerator = function existingItemGenerator(existingItem) {
         if (this.response.data.length > 0) {
             return this.response.data.shift();
           } else if (this.response.paging && this.response.paging.next) {
-            this.response = _streamline.await(_filename, 95, this, 'get', 1, null, false)(this.response.paging.next, true);
+            this.response = _streamline.await(_filename, 95, graph, 'get', 1, null, false)(this.response.paging.next, true);
             return this.response.data.shift();
           }
       }
