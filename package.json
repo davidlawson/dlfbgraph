@@ -1,6 +1,6 @@
 {
   "name": "dlfbgraph",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Facebook Graph API library built on top of criso/fbgraph. Uses streamline.js.",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "fbgraph": "^1.1.0",
-    "oauth": "^0.9.14"
+    "oauth": "^0.9.14",
+    "streamline-runtime": "^1.0.16"
   }
 }
