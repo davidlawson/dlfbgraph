@@ -17,7 +17,7 @@ graph.oauthInstance = null;
 
 /* === Setup === */
 
-graph.setVersion('2.4');
+graph.setVersion('2.5');
 
 /* === Methods === */
 
