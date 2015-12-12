@@ -16,7 +16,7 @@ npm install --save davidlawson/dlfbgraph
 
 ## Usage
 
-```
+```js
 const graph = require('dlfbgraph');
 ``` 
 
@@ -24,7 +24,7 @@ The following examples use [streamline.js](https://github.com/Sage/streamlinejs)
 
 ### Logging
 
-```
+```js
 graph.errorLogger = console.error;
 graph.callLogger = console.log;
 graph.resultLogger = console.info;
@@ -32,13 +32,13 @@ graph.resultLogger = console.info;
 
 ### Authentication
 
-```
-graph.authenticate(appID, appSecretKey, _)
+```js
+graph.authenticate(appID, appSecretKey, _);
 ```
 
 ### Item Generator
 
-```
+```js
 const postGenerator = graph.itemGenerator('<facebookID>/posts?fields=...', _);
 
 let postData = null, postsFound = 0, maxPosts = 10;
