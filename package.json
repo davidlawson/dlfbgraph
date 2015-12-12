@@ -1,0 +1,22 @@
+{
+  "name": "dlfbgraph",
+  "version": "1.0.0",
+  "description": "Facebook Graph API library built on top of criso/fbgraph. Uses streamline.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "facebook",
+    "fb",
+    "graph",
+    "api"
+  ],
+  "author": "David Lawson",
+  "repository": "davidlawson/fbgraph",
+  "license": "MIT",
+  "dependencies": {
+    "fbgraph": "^1.1.0",
+    "oauth": "^0.9.14"
+  }
+}
